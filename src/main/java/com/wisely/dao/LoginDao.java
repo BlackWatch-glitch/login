@@ -11,5 +11,5 @@ public interface LoginDao extends JpaRepository<User, Integer> {
 	User findByAccountAndDelFlag(String account, boolean delFlag);
 	//
 	User findByPasswordAndDelFlag(String password, boolean delFlag);
-
+	//
 }
