@@ -24,7 +24,7 @@ public class CorsConfig {
 		corsConfiguration.setMaxAge(3600L);
 		return corsConfiguration;
 	}
-	
+	    
 	@Bean
 	public CorsFilter corsFilter() {
 		UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
